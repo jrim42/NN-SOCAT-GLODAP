@@ -3,12 +3,14 @@
 - comparison of NN-SOCAT/GLODAP data of North Pacific
 
 ***
-1. `mission 01`
-    - 북서태평양 한정으로, SOM-FFN 결과를 raw data인 SOCAT과 비교해본다.
+1. `mission 00`
+    - m_map toolbox를 이용하여 SOM-FFN data를 'Interrupted Mollweide Projections'으로 구현
+2. `mission 01`
+    - 북서태평양 한정으로, SOM-FFN 결과를 raw data인 SOCAT과 비교
         - 상관관계, 절대값 차이 (단순 비교)
         - SOM-FFN 자료와 raw data의 차이가 큰 지점의 특징 찾기 (연구)
-2. `mission 02`
-    - 북서태평양 또는 전 대양을 대상으로, SOM-FFN의 결과를 Glodap 자료와 비교해본다.
+3. `mission 02`
+    - 북서태평양 또는 전 대양을 대상으로, SOM-FFN의 결과를 Glodap 자료와 비교
 
 ***
 ### SOM-FFN (NN)
