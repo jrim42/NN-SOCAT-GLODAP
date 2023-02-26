@@ -10,6 +10,8 @@
     - 북서태평양 한정으로, SOM-FFN 결과를 raw data인 SOCAT과 비교
         - 상관관계, 절대값 차이 (단순 비교)
         - SOM-FFN 자료와 raw data의 차이가 큰 지점의 특징 찾기 (연구)
+    <img width="1268" alt="스크린샷 2023-02-27 오전 1 15 48" src="https://user-images.githubusercontent.com/90167645/221424342-47b8d3cf-d9a6-42b6-9ed7-1e4ce282094f.png">
+
 3. `mission 02`
     - 북서태평양 또는 전 대양을 대상으로, SOM-FFN의 결과를 Glodap 자료와 비교
 
