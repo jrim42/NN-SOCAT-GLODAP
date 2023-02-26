@@ -3,8 +3,8 @@ clc;
 clear;
 close all;
 
-load SOM_FFN_v2021.mat;
-load SOCATv2022_NP_2.mat;
+load ../../data/SOM_FFN_v2021.mat;
+load ../../data/SOCATv2022_NP_2.mat;
 
 %%
 som_ffn.lonGrd = som_ffn.lonGrd + 180;
