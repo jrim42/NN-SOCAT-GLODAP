@@ -5,6 +5,7 @@
 ***
 1. `mission 00`
     - m_map toolbox를 이용하여 SOM-FFN data를 'Interrupted Mollweide Projections'으로 구현
+    <img width="1112" alt="스크린샷 2023-02-27 오전 1 47 28" src="https://user-images.githubusercontent.com/90167645/221424262-b4aa9313-0807-446e-8384-568b361fe8f0.png">
 2. `mission 01`
     - 북서태평양 한정으로, SOM-FFN 결과를 raw data인 SOCAT과 비교
         - 상관관계, 절대값 차이 (단순 비교)
