@@ -2,8 +2,8 @@ clc;
 clear;
 close all;
 
-load SOM_FFN_v2021.mat;
-load Glodapv2.2022_sys.mat;
+load ../../data/SOM_FFN_v2021.mat;
+load ../../data/Glodapv2.2022_sys.mat;
 
 %% path
 addpath('/Users/cheonjiyeon/Documents/MATLAB/m_map/')

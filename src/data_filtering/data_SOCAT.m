@@ -8,12 +8,12 @@ clc;
 clear;
 close all;
 
-load SOCATv2022_NP.mat
+load ../../data/SOCATv2022_NP.mat
 
 %% data into table form
 d = [yr, mon, day, hh, mm, ss];
 TT1 = timetable(datetime(d(:,1), d(:,2), d(:,3), d(:,4), d(:,5), d(:,6)), ...
-           longitude, latitude, fCO2rec, QC_Flag);
+           longitude, latitude, fCO2rec, SST, QC_Flag);
 clear yr mon day hh mm ss;
 
 %% filtering QC
@@ -36,7 +36,7 @@ socat.lon = coord.lon';
 socat.lat = coord.lat';
 socat.lonGrd = grd.lonGrd;
 socat.latGrd = grd.latGrd;
-save("SOCATv2022_NP_2", "socat");
+save("../../data/SOCATv2022_NP_2", "socat");
 %% ====================================================================================
 
 %%
