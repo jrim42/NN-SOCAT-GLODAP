@@ -1,5 +1,5 @@
 # NN-SOCAT-GLODAP
-- 고려대학교 해양환경연구실 인턴 팀과제
+- 해양환경연구실 학부생 인턴 팀과제
 - comparison of NN-SOCAT/GLODAP data of North Pacific
 
 ***
